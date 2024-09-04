@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title-principal{
+    color:#FF2500;
+    font-weight: 900!important;
+    /* font-style: italic; */
+    /* text-shadow: 3px 0px 0px #CC4C3B; */
+    text-shadow: 1px 0px 0px #ffffff;
+    letter-spacing: 3px!important;
+    font-size: 80px !important;
+}
+.title-principal2{
+    color:#ffdd00;
+    font-weight: 600!important;
+    /* font-style: italic; */
+    /* text-shadow: 3px 0px 0px #CC4C3B; */
+    text-shadow: 1px 0px 0px #ffffff;
+    letter-spacing: 3px!important;
+    font-size: 80px !important;
+}
+.grid__form{
+    background: rgba(255, 255, 255, 0.4) !important;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn-login {
+    background-color: #fa8474 !important;
+    color: white;
+    padding: 6px 0px !important;
+    margin: 20px 0 15px 0;
+    border-radius: 6px !important;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+}
+
+.btn-login:hover {
+    background-color: #ec4444!important;
+    box-shadow: none !important;
+}
+
+.input-login {
+    border-radius: 10px !important;
+    /* border:1px solid rgb(8, 8, 8) !important; */
+    /* background-color: rgba(122, 122, 122, 0.6); */
+    color: #000;
+    background-color: #fff;
+    /* color: #fff!important; */
+    font-size: 30px !important;
+    /* border-bottom: 1px solid #FF2500!important; */
+}
+
+.avatar-login {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px !important;
+    margin: 5px;
+    padding: 5px;
+    margin-top: -5px !important;
+    /* background-image: radial-gradient(circle at 54.17% 2.38%, #f2ff3d 0, #feff29 10%, #fff117 20%, #ffd90a 30%, #fbbf07 40%, #eda30c 50%, #dc8812 60%, #cd7118 70%, #bf5d1e 80%, #b34d22 90%, #aa3f27 100%); */
+}
+
+.divider-login {
+    color: #fff;
+}
+
+.forgot-password1 {
+    /* margin */
+    display: flex;
+    color: #2c2c2c ;
+    /* background:#eee; */
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 400;
+   }
+.btn-create{
+    background: #2c2c2c !important;;
+    color: white;
+    padding: 6px 0px !important;
+    margin: 20px 0 15px 0;
+    border-radius: 6px !important;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+}
+
+.btn-create:hover {
+    /* margin */
+    background: #1f1e1e !important;
+    ;
+}
+
+/* style={{ textDecoration: 'none', color:'#FF2500' }} */

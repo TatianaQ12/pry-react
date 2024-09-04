@@ -1,0 +1,54 @@
+{
+  // "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2018",
+      "ES2019",
+      "ES2020",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, //Habilite todas las opciones estrictas de verificación de tipo.
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true, //Habilite el informe de errores para casos fallidos en declaraciones de cambio.
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": false, // Habilite el informe de errores para expresiones y declaraciones con un anytipo implícito.
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strictNullChecks": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*":["src/components/*"],
+      "@views/*":["src/views/*"],
+      "@assets/*":["src/assets/*"],
+      "@hooks/*":["src/hooks/*"],
+      "@routes/*":["src/routes/*"],
+      "@toolbox/*":["src/toolbox/*"],
+      "@constants/*":["src/toolbox/constants/*"],
+      "@helpers/*":["src/toolbox/helpers/*"],
+    },
+  },
+  "include":  [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+}

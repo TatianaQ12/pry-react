@@ -1,0 +1,94 @@
+.text-light {
+  color: #1A1C1E !important;
+}
+
+.text-dark {
+  color: #fff !important;
+}
+
+.card-light {
+  width: 100%;
+  background: #f9f9f9 !important;
+  margin-bottom: 10px;
+}
+
+.card-dark {
+  width: 100%;
+  background: #1A1C1E !important;
+  margin-bottom: 10px;
+}
+
+.card-light-select {
+  width: 100%;
+  background: #f1f1f1 !important;
+  margin-bottom: 10px;
+}
+
+.card-dark-select {
+  width: 100%;
+  background: #3f4246 !important;
+  margin-bottom: 10px;
+}
+
+.card-value-light {
+  width: 100%;
+  background: #f9f9f9 !important;
+}
+
+.card-value-dark {
+  width: 100%;
+  background: #1f1f1f !important;
+}
+.table-head-light {
+  background: #f4f4f4 !important;
+}
+
+.table-head-dark{
+  background: #353434 !important;
+}
+
+.light-theme .ant-pagination {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-theme .ant-pagination-item,
+.light-theme .ant-pagination-item-link {
+  border-color: #d9d9d9;
+  background-color: #f9f9f9;
+}
+
+.light-theme .ant-pagination-item:hover,
+.light-theme .ant-pagination-item-active {
+  border-color: #1890ff;
+  background-color: #e6f7ff;
+}
+
+.light-theme .ant-pagination-item-link:hover,
+.light-theme .ant-pagination-item-link:focus {
+  border-color: #1890ff;
+  background-color: #e6f7ff;
+}
+
+.dark-theme .ant-pagination {
+  background-color: #2c2b2b;
+  color: #fff;
+}
+
+.dark-theme .ant-pagination-item,
+.dark-theme .ant-pagination-item-link {
+  border-color: #555;
+  background-color: #444;
+}
+
+.dark-theme .ant-pagination-item:hover,
+.dark-theme .ant-pagination-item-active {
+  border-color: #555;
+  background-color: #555;
+}
+
+.dark-theme .ant-pagination-item-link:hover,
+.dark-theme .ant-pagination-item-link:focus {
+  border-color: #666;
+  background-color: #666;
+}

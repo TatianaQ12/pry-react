@@ -1,0 +1,1 @@
+export { RestrictedRoute } from './RestrictedRoute';

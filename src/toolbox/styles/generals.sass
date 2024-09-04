@@ -1,0 +1,64 @@
+@import "./_color"
+@import "./_breakpoints"
+@import "./_font"
+
+.l-protected *
+  font-family: 'Kanit', sans-serif 
+
+.c-title-evaluation-type
+   width: 100%
+   display: flex
+   justify-content: center
+   padding: 20px 0
+   h1
+      font-size: 18px
+      text-align: center
+      color: $color-blue
+.s-article-cards-general, .s-participants-content-cards
+   width: 100%
+   box-sizing: border-box
+   display: flex
+   flex-direction: column
+   align-items: flex-end
+   padding: 20px 10px
+
+.s-article-content-cards
+   padding: 20px 0
+
+.lazy_load_text, .lazy_load_content
+   animation-name: animate-load-text
+   animation-duration: 1s
+   animation-delay: 1000ms
+   animation-timing-function: steps(10,end)
+   background-color: #dedede
+   animation-iteration-count: 3
+   animation-direction: alternate
+   border-radius: 6px
+   opacity: 0.5
+
+.lazy_load_content
+   animation-name: animate-load-content
+   border-radius: 16px
+   opacity: 0.25
+
+@keyframes animate-load-text
+   0%
+      opacity: .5
+   100%
+      opacity: 1
+@keyframes animate-load-content
+   0%
+      opacity: .25
+   100%
+      opacity: .65
+
+@media screen and ( min-width: 680px )
+   .s-head-open-general
+      position: absolute
+      right: 20px
+   .c-title-type
+      justify-content: left
+      padding: 0
+      padding-bottom: 20px
+      h1
+         font-size: 22px

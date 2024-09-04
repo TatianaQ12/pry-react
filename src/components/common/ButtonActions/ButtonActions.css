@@ -1,0 +1,228 @@
+.BtnEdit {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(168, 38, 255);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(140, 32, 212);
+    transition-duration: .3s;
+  }
+  
+  
+  .svg {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+  }
+  
+  .BtnEdit:hover {
+    color: transparent;
+  }
+  
+  .BtnEdit:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnEdit:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
+
+  .BtnEditTable {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(168, 38, 255);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(140, 32, 212);
+    transition-duration: .3s;
+  }
+  
+  .BtnEditTable:hover {
+    color: transparent;
+  }
+  
+  .BtnEditTable:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnEditTable:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
+
+  .BtnSave {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #011C27;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #02213B;
+    transition-duration: .3s;
+  }
+  
+  .BtnSave:hover {
+    color: transparent;
+  }
+  
+  .BtnSave:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnSave:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(53, 80, 112);
+  }
+
+  .BtnSaveTable {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #011C27;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #02213B;
+    transition-duration: .3s;
+  }
+  
+  .BtnSaveTable:hover {
+    color: transparent;
+  }
+  
+  .BtnSaveTable:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnSaveTable:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(53, 80, 112);
+  }
+  
+
+  .BtnDelete {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(244, 97, 97);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(248, 134, 134);
+    transition-duration: .3s;
+  }
+  
+  .BtnDelete:hover {
+    color: transparent;
+  }
+  
+  .BtnDelete:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnDelete:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(248, 134, 134);
+  }
+  
+
+  .BtnDeleteTable {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(244, 97, 97);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(248, 134, 134);
+    transition-duration: .3s;
+  }
+  
+  .BtnDeleteTable:hover {
+    color: transparent;
+  }
+  
+  .BtnDeleteTable:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .BtnDeleteTable:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(248, 134, 134);
+  }
+  

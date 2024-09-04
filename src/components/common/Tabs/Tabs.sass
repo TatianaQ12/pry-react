@@ -1,0 +1,39 @@
+@import "../../../toolbox/styles/_color"
+
+.c-tabs-container
+   width: 100%
+   padding: 0
+   position: relative
+   background: $color-white
+   box-sizing: border-box
+   height: fit-content
+   min-height: 100%
+   border-radius: 5px
+   border: 1px solid #f3f0f0
+   &.--no-border
+      border: none
+   .MuiTab-labelIcon
+      padding-top: 10px !important
+      min-height: initial
+
+.c-tabs-linear
+   width: 100%
+   height: 3px
+   background: rgba($color-black, .1 )
+   position: absolute
+   bottom: 0
+   box-sizing: border-box
+
+.tab-active, .tab
+   span
+      font-size: 14px
+      font-family: Poppins, sans-serif
+      text-transform: capitalize
+      font-weight: 500
+.tab
+   span
+      color: $color-gray
+
+.tab-active
+   span
+      color: $color-blue

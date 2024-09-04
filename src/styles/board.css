@@ -1,0 +1,43 @@
+/* styles.css */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0 16px;
+}
+
+.column h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.droppable {
+    min-height: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #f7f7f7;
+}
+
+.dragging-over {
+    background-color: #e6f7ff;
+    /* Color de fondo cuando se está arrastrando sobre la columna */
+}
+
+.draggable {
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dragging {
+    opacity: 0.5;
+    /* Opacidad cuando se está arrastrando */
+}
